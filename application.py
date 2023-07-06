@@ -42,3 +42,15 @@ def predict_datapoint():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
+
+
+"""
+Elastic BeanStalk Instance to deploy the application
+
+python.config file to tell the elastic beanstalk instance about the entry point of the application. 
+
+
+CodePipeline - Release software using continuous delivery
+
+
+"""
